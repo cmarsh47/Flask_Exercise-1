@@ -50,7 +50,7 @@ def displayStudentForm():
     # Complete this function to display studentFrom.html page
      return render_template(
         'studentForm.html',
-        organizations=[{'orgName': 'Flipcart'}, {'orgName': 'Amazon'}, {'orgName': 'CSSolver'}, {'orgName': 'Scaler'}, {'orgName': 'Tryjaar'}])
+        organizations=[{'orgName': 'Charlotte Hack'}, {'orgName': 'Code 9'}, {'orgName': 'Women who Code'}, {'orgName': 'Runtime teror'}, {'orgName': 'FrontPage Freebirds'}])
 
 
 @app.route('/addStudentOrganisation', methods=['POST'])

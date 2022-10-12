@@ -4,7 +4,7 @@
 <!--Form to request user's name-->
 <form action="/addStudentOrganisation" method="POST">
     <label for="Name">Enter your name:</label>
-    <input class="Input" type="text" name="Name" placeholder="Enter your name" /><br><br>
+    <input class="Input" type="text" name="name" placeholder="Enter your name" /><br><br>
     <label for="organization">Enter your Organization:</label>
     <select name="organization" class="Input" >
       {% for o in organizations %}
@@ -12,6 +12,6 @@
       {% endfor %}
     </select><br><br>
 
-    <button type="submit" class="pred-btn"> Submit </button>
+    <button type="submit" class="pred-btn"> Register </button>
 
 {% endblock %}
